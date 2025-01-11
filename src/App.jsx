@@ -200,8 +200,11 @@ const App = () => {
         <div style={{ width: "100%" }}>
           <div
             style={{
-              display: "flex",
-              gap: "20px",
+              display: "grid",
+              gridTemplateColumns: "repeat(4, minmax(0, 1fr))",
+              alignItems: "stretch",
+              justifyContent: "space-between",
+              gap: "2px",
               backgroundColor: "white",
               padding: "10px",
               border: "8px",
@@ -210,7 +213,6 @@ const App = () => {
           >
             <div>
               <img src="/1.jpg" alt="" className="slider_product_image" />
-              <span>₦7,700</span>
             </div>
             <div>
               <img src="/1(2).jpg" alt="" className="slider_product_image" />
@@ -218,25 +220,9 @@ const App = () => {
             </div>
             <div>
               <img src="/1(3).jpg" alt="" className="slider_product_image" />
-              <span>₦ 8100
-              </span>
             </div>
-            
-          
             <>
-              <img src="/1(4).jpg" alt="" />
-            </>
-            <>
-              <img src="/1(5).jpg" alt="" />
-            </>
-            <>
-              <img src="/1(6).jpg" alt="" className="slider_product_image"/>
-            </>
-            <>
-              <img src="/1(7).jpg" alt="" />
-            </>
-            <>
-              <img src="/1(8).jpg" alt="" />
+              <img src="/1(4).jpg" alt=""  className="slider_product_image"/>
             </>
           </div>
         </div>
