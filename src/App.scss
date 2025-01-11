@@ -1,0 +1,134 @@
+@import "bootstrap/scss/bootstrap";
+a {
+  text-decoration-line: none;
+  color: black;
+  display: block;
+}
+.top_header {
+  background-color: antiquewhite;
+}
+h1 {
+  font-size: small;
+  text-align: center;
+  margin: 0 !important;
+}
+body {
+  background-color: rgb(214, 214, 214);
+}
+nav {
+  background-color: white;
+  padding: 8px 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.nav_first_slide {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+}
+button {
+  border: none;
+}
+.jum {
+  font-family: "Gravitas One", serif;
+  text-align: left;
+  font-size: 40px;
+  line-height: 1;
+}
+.text_logo {
+  display: flex;
+  padding: 0;
+  align-items: stretch;
+  justify-content: center;
+  position: relative;
+  gap: 12px;
+}
+.rounded_star {
+  background-color: orange;
+  color: white;
+  border: 0;
+  display: block;
+  width: 24px;
+  height: 24px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 100%;
+  font-size: 14px;
+}
+.input {
+  width: 500px;
+  padding-left: 40px;
+}
+.search {
+  background-color: orange;
+  padding: 8px;
+}
+.searchicon_button {
+  position: absolute;
+  left: 4px;
+  background-color: transparent;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flex_container_parent {
+  display: flex;
+  gap: 9px;
+  align-items: center;
+}
+.dropdown_container {
+  position: relative;
+}
+.dropdown_items {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  position: absolute;
+  right: 0;
+  top: 100%;
+  width: 200px;
+  background-color: white;
+  padding: 4px 6px;
+  margin-top: 4px;
+}
+.dropdown_items a {
+  text-decoration-line: none;
+  color: black;
+}
+.link_container {
+  background-color: white;
+  padding: 6px;
+  min-width: 200px;
+  border-radius: 6px;
+}
+.link_container a {
+  display: block;
+  text-decoration-line: none;
+  color: black;
+}
+.form_2{
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  width: 100%;
+  gap: 10px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+button.accountname_icon{
+  background-color: transparent!important;
+  
+}
+.slider_product_image{
+  display: block!important;
+  width: "100%";
+}
